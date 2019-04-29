@@ -10,32 +10,32 @@ dpad.y = 400
 dpad.id = "d-pad"
 
 
-local UpArrow = display.newImageRect ("assets/sprites/upArrow.png", 75, 50)
+local UpArrow = display.newImageRect ("assets/sprites/upArrow.png", 35, 29)
 UpArrow.x = 160
-UpArrow.y = 200
+UpArrow.y = 345
 UpArrow.id = "Up Arrow"
 
 
-local DownArrow = display.newImageRect ("assets/sprites/downArrow.png", 75, 50)
+local DownArrow = display.newImageRect ("assets/sprites/downArrow.png", 35, 29)
 DownArrow.x = 160
-DownArrow.y = 300
+DownArrow.y = 455
 DownArrow.id = "Down Arrow"
 
 
-local RightArrow = display.newImageRect ("assets/sprites/rightArrow.png", 75, 50 )
-RightArrow.x = 160
-RightArrow.y = 350 
+local RightArrow = display.newImageRect ("assets/sprites/rightArrow.png", 25, 34 )
+RightArrow.x = 215
+RightArrow.y = 400 
 RightArrow.id = "Right Arrow"
 
 
-local LeftArrow = display.newImageRect ("assets/sprites/leftArrow.png", 75, 50)
-LeftArrow.x = 160
-LeftArrow.y = 250 
+local LeftArrow = display.newImageRect ("assets/sprites/leftArrow.png", 25, 34)
+LeftArrow.x = 105
+LeftArrow.y = 400
 LeftArrow.id = "Left Arrow"
 
-local TheCharacter = display.newImageRect ("assets/sprites/character.png", 175, 175)
+local TheCharacter = display.newImageRect ("assets/sprites/character.png", 150, 175)
 TheCharacter.x = 160
-TheCharacter.y = 400
+TheCharacter.y = 150
 TheCharacter.id = "The Character"
 
 
@@ -102,13 +102,3 @@ DownArrow:addEventListener ("touch", DownArrowTouch)
 RightArrow:addEventListener ("touch", RightArrowTouch)
 
 LeftArrow: addEventListener ("touch", LeftArrowTouch)
-
-
-
-
-
-
-
-
-
-
